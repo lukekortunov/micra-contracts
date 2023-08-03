@@ -1,0 +1,22 @@
+{
+    "name": "lukekortunov/micra-contracts",
+    "version": "1.2.0",
+    "description": "Collection of shared interfaces required by Micra framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LukeKortunov\\Micra\\Contracts\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luke Kortunov",
+            "email": "luke@kortunov.me"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "league/container": "^4.2"
+    }
+}
